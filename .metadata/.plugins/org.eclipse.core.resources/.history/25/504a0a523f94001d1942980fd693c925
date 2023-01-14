@@ -1,0 +1,17 @@
+package br.com.fiap.banco;
+
+public  class Teste {
+	
+	public static void main(String[] args) {
+		
+		Conta cc = new Conta();
+		cc.saldo =  100.0;
+		cc.agencia = 1388;
+		cc.numero = 687384;
+		
+		
+		cc.deposito(200);
+		
+		System.out.println(cc.verificarSado(1000)));
+	}
+}
